@@ -1,5 +1,5 @@
 # BHDump
-Python project that dump any ios application (IPA) without extracting it from dyld_shared_cache based in flexdecrypt.
+Python project that dump any ios application (IPA) without extracting it from dyld_shared_cache based in [flexdecrypt](https://github.com/JohnCoates/flexdecrypt).
 
 # Installation:
 ## automatic:
@@ -37,4 +37,4 @@ Python project that dump any ios application (IPA) without extracting it from dy
   ```
   
   # note:
-  - By default, BHDump will produce IPA with **iOS 12 Minimum Version** of you want change that open [application.py](https://github.com/BandarHL/BHDump/application.py#L49) and on line 49 change 12 with any version you want **(but that not mean the IPA will work with this version)**.
+  - By default, BHDump will produce IPA with **iOS 12 Minimum Version** of you want change that open [application.py](https://github.com/BandarHL/BHDump/blob/master/application.py#L49) and on line 49 change 12 with any version you want **(but that not mean the IPA will work with this version)**.

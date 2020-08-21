@@ -1,5 +1,5 @@
 # BHDump
-Python project that dump any ios application (IPA) without extracting it from dyld_shared_cache based in [flexdecrypt](https://github.com/JohnCoates/flexdecrypt).
+Python project that dump any ios application (IPA), based in [flexdecrypt](https://github.com/JohnCoates/flexdecrypt).
 
 # Installation:
 ## automatic:

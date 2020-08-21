@@ -1,5 +1,5 @@
 # BHDump
-Python project that dump any ios application (IPA) without extracting it from dyld_shared_cache based in flexdecrypt
+Python project that dump any ios application (IPA) without extracting it from dyld_shared_cache based in flexdecrypt.
 
 # Installation:
 ## automatic:
@@ -11,7 +11,7 @@ Python project that dump any ios application (IPA) without extracting it from dy
 ## manually:
   - **Create Folder in /var/mobile/Documents with this name (Apps) and inside it make another folder with name (Payload)**.
   - download libswift & libswift (stable).
-  - download Python 3.7 & curl & wget from sam repo.
+  - download Python 3.7 & curl & wget from [sam repo](https://apt.bingner.com/).
   - installing pip:
   ```shell
   curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py

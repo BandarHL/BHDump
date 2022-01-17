@@ -62,4 +62,4 @@ class Application:
     @classmethod
     def dumpFile(cls, path):
         cmd = 'flexdecrypt {} --output {}'.format(path.replace(' ', '\ '), path.replace(' ', '\ '))
-        os.popen(cmd)
+        os.popen(cmd).read()
